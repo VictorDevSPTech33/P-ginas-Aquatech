@@ -1,1 +1,161 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{font-family: "Barlow",'Courier New', Courier, monospace;}
+body{
+    background: black;
+    margin: 0;
+}
+
+.header{
+    border-bottom: 2px solid aqua;
+}
+
+.header .container .titulo{
+    color: aqua;
+}
+
+.container .navbar{
+    color: yellow;
+    list-style-type: none;
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.navbar .agora{
+    font-weight: 900;
+    border-bottom: yellow solid 2px;
+    
+
+}
+
+.navbar a {
+    color: yellow;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;  
+}
+
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 500px;
+    color: white;
+}
+
+.banner .container{
+    width: 500px;
+    align-items: center;
+}
+
+.banner .container p{
+    font-size: 54px;
+}
+
+.banner .container p span{
+    font-weight: 800;
+}
+
+.social{
+    background: white;
+}
+
+.boxes{
+    display:flex;
+    padding: 20px 0px;
+    width: 100%;
+    justify-content: space-evenly; 
+}
+
+.box img{
+    width: 100px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social{
+    background: white;
+}
+
+.social .container{
+    justify-content: space-evenly;
+}
+
+.box p{
+    text-align: center;
+}
+
+.footer{
+    background: aqua;
+}
+
+.footer .container{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+}
+
+.login{
+
+    background-image:url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+
+.card{
+    margin: auto;
+    background-color: #e5e5e5;
+    width: 50%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.card h2{
+    text-align: center;
+    color: rgb(233, 83, 83);
+}
+
+.botao{
+    background-color: rgb(187, 69, 108);
+    color: white;
+    border-radius: 7px; 
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input{
+    border-radius: 5px;
+    text-align: center;
+}
+
+.campo span{
+    color: rgb(233, 83, 83);
+}
+
+
+
